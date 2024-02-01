@@ -115,8 +115,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<List<Repository>>, t: Throwable) {
-                // Tratar o erro
-                // TODO: Tratar o erro
+
                 updateUIWithRepositories(emptyList())
             }
         })
